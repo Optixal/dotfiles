@@ -1,0 +1,25 @@
+[options]
+font = Iosevka Nerd Font Regular 10
+scrollback_lines = 2000
+
+[colors]
+foreground = #CCFFEB
+background = #0D0D0D
+color0 = #21212A
+color1 = #279e56
+color2 = #149f4b
+color3 = #04a043
+color4 = #00963d
+color5 = #009650
+color6 = #009267
+color7 = #DEDEF5
+color8 = #2B2C37
+color9 = #33d071
+color10 = #1ad162
+color11 = #05d257
+color12 = #00c851
+color13 = #00c86a
+color14 = #00c48a
+color15 = #E7E7FF
+
+[hints]

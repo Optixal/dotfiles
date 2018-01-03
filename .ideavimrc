@@ -1,0 +1,2 @@
+set visualbell
+set noerrorbells

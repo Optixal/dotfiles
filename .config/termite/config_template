@@ -1,0 +1,9 @@
+[options]
+font = Iosevka Nerd Font Regular 10
+scrollback_lines = 2000
+
+[colors]
+foreground = #EBEBFF
+background = #0D0D0D
+
+[hints]

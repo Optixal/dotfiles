@@ -91,6 +91,11 @@ xterm*|rxvt*)
     ;;
 esac
 
+if [[ $TERM == xterm-termite ]]; then
+  . /etc/profile.d/vte-2.91.sh
+  __vte_prompt_command
+fi
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
