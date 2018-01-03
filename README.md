@@ -8,7 +8,19 @@
 
 `git clone --separate-git-dir=~/.dotfiles git@github.com:Optixal/dotfiles ~`
 
-## Init and Modifying
+## Misc
+
+### Other Modifications
+
+#### Disable Terminal Bell
+
+/etc/inputrc
+
+```
+set bell-style none
+```
+
+### Init and Modifying
 
 ```sh
 git init --bare $HOME/.dotfiles
@@ -24,4 +36,3 @@ config add .config/redshift.conf
 config commit -m "Add redshift config"
 config push
 ```
-
