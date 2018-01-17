@@ -139,10 +139,14 @@ bar {
             #statusline #EEEEEE
             #background #1C1D2B88
             #focused_workspace #282A3E88 #282A3E88 #FFFFFF
-            statusline #E6FFF5
-            background #0D0D0D88
-            focused_workspace #6A66B344 #6A66B344 #FFFFFF
-            inactive_workspace #1C1D2B88 #1C1D2B88 #777777
+            #statusline #E6FFF5
+            #background #0D0D0D88
+            #focused_workspace #6A66B344 #6A66B344 #FFFFFF
+            #inactive_workspace #1C1D2B88 #1C1D2B88 #777777
+            statusline #000000
+            background #0D0D0D00
+            focused_workspace #00000000 #00000000 #000000
+            inactive_workspace #00000000 #00000000 #555555
         }
 }
 
@@ -152,7 +156,7 @@ gaps inner 32
 gaps outer 32
 
 # feh - Wallpaper Setter
-exec_always --no-startup-id feh --bg-fill /home/optixal/Pictures/wpgtk/QrG0sAY.jpg
+exec_always --no-startup-id feh --bg-fill "/home/optixal/Pictures/Off White Wallpapers/cfcbb41_bw.png"
 
 # compton - Compositing Manager for Shadows and Opacity
 exec_always --no-startup-id compton -b --config ~/.config/compton/compton.conf
