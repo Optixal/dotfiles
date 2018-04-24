@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Bash Ctrl+w Behaviour
+autoload -U select-word-style
+select-word-style whitespace
+
 # Path to your oh-my-zsh installation.
 export ZSH=/home/optixal/.oh-my-zsh
 
@@ -62,6 +66,7 @@ plugins=(
   colored-man-pages
   gitfast
   python
+  autojump
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -96,4 +101,15 @@ unsetopt share_history
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 source ~/.bash_aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+zstyle ':completion:*' matcher-list '' \
+  'm:{a-z\-}={A-Z\_}' \
+  'r:[^[:alpha:]]||[[:alpha:]]=** r:|=* m:{a-z\-}={A-Z\_}' \
+  'r:|?=** m:{a-z\-}={A-Z\_}'
+
+bindkey "$terminfo[kcuu1]" up-history
+bindkey "$terminfo[kcud1]" down-history
