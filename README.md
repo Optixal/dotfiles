@@ -12,6 +12,18 @@ Dark Leet
 
 ---
 
+![Neon Midnight](https://user-images.githubusercontent.com/19287477/39266384-782ea3a4-48fc-11e8-8834-e9d703eb1334.png)
+
+Neon Midnight (Unpublished)
+
+---
+
+![Nostalgia](https://user-images.githubusercontent.com/19287477/39266387-7b3f35b8-48fc-11e8-81a9-9b9f835743cb.png)
+
+Nostalgia (Unpublished)
+
+---
+
 ![First Rice](https://user-images.githubusercontent.com/19287477/34462910-691ebb3e-ee88-11e7-8df4-ed444a483a5a.png)
 
 First Rice - https://www.reddit.com/r/unixporn/comments/7n9j81/i3gaps_first_rice_kali_as_a_dev_environment_yes/
