@@ -113,3 +113,6 @@ zstyle ':completion:*' matcher-list '' \
 
 bindkey "$terminfo[kcuu1]" up-history
 bindkey "$terminfo[kcud1]" down-history
+
+# Git & SSH broken pipe fix: https://forum.manjaro.org/t/after-update-i-constantly-get-package-write-wait-broken-pipe-on-github/58864/8
+export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o IPQoS=throughput"

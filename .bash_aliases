@@ -10,3 +10,4 @@ alias ssh='TERM=xterm-256color ssh'
 # Aesthetics
 alias visualizer='cava -p ~/.config/cava/config'
 alias matrix='cmatrix -b'
+alias fetch='neofetch --w3m --source ~/Pictures/Off\ White\ Wallpapers/dp.jpg'
